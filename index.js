@@ -17,6 +17,11 @@ app.get("/signup", (req, res) => {
         message:"You are visiting signup_route..."
     })
 })
+app.get("/logout", (req, res) => {
+    res.json({
+        message:"You are visiting logout_route..."
+    })
+})
 
 
 app.listen(8000, () => {
